@@ -151,18 +151,25 @@ section h2 {
     display: inline-block;
     margin-top: 1rem;
     opacity: 1; /* Ensure full opacity */
-    animation: fadeInOut 3s ease-in-out; /* Remove animation if not needed */
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.project a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 1rem;
+    opacity: 1; /* Ensure full opacity */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
 
 .project a:hover {
     color: #0e776d;
-    transform: translateY(-3px); /* Subtle hover effect */
+    transform: translateY(-5px) scale(1.05); /* Subtle hover effect without full rotation */
     opacity: 1; /* Ensure full visibility on hover */
-    animation: none; /* Disable animation on hover */
 }
 
-/* Contact Section */
 #contact {
     padding: 4rem 2rem;
     background: rgba(22, 27, 34, 0.95);
