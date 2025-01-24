@@ -13,7 +13,8 @@
   ![JavaScript](https://img.shields.io/badge/-JavaScript-0d1117?style=flat-square&logo=javascript)  
   ![TypeScript](https://img.shields.io/badge/-TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=007ACC)  
   ![Python](https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)\
-  ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)\
+  ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
 
 
 - **Tools & Frameworks**:  
@@ -21,16 +22,6 @@
   ![ElysiaJS](https://img.shields.io/badge/-Elysia-0d1117?style=flat-square&logo=elysia)  
   ![Node.js](https://img.shields.io/badge/-Node.js-0d1117?style=flat-square&logo=node.js&logoColor=339933)  
   ![Git](https://img.shields.io/badge/-Git-0d1117?style=flat-square&logo=git&logoColor=F05032)
-
----
-
-### 📈 GitHub Stats
-might be a lil innacturate
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chariskar&show_icons=true&theme=github_dark" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chariskar&theme=github-dark" alt="GitHub Streak" />
-</p>
 
 ---
 
