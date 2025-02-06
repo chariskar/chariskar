@@ -1,77 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./styles/index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Charis Karametos Portfolio</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+            rel="stylesheet"
+    />
 </head>
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="container nav-container">
+            <a href="#" class="logo">CK</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" class="icon">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+                <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" class="icon" style="display: none;">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+            </button>
+        </div>
     </nav>
 </header>
 
-<section id="hero">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Charis Karametos.</p>
-
-</section>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        Im just a random teenager from greece trynna act like I know what the fuck im doing.
-    </p>
-</section>
-
-
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-        <h3>BreakTheMod</h3>
-        <p>A mod version of breakthebot, github can be found at</p>
-        <a href="https://github.com/chariskar/breakthemod ">GitHub</a>
-        <a href="https://modrinth.com/mod/breakthemod">Modrinth</a>
-    </div>
-    <div class="project">
-        <h3>BugLang</h3>
-        <p>A joke language i made to learn rust</p>
-        <a href="https://github.com/chariskar/BugLand ">GitHub</a>
-    </div>
-
-</section>
-
-<section id="contact">
-    <h2>Links</h2>
-    <div class="contact-container">
-        <div class="contact-links">
-            <a href="https://discord.com/users/927581845787402240" target="_blank" class="contact-item">
-                <i class="fab fa-discord"></i> Discord
-            </a>
-            <a href="mailto:charis.karametos@gmail.com" class="contact-item">
-                <i class="fas fa-envelope"></i> Gmail
-            </a>
-            <a href="mailto:charis.karametos@outlook.com" class="contact-item">
-                <i class="fas fa-envelope-open"></i> Outlook
-            </a>
-            <a href="https://github.com/chariskar " target="_blank" class="contact-item">
-                <i class="fab fa-github"></i> Github
-            </a>
+<main>
+    <section id="hero">
+        <div class="hero-content container">
+            <h1>Hi, I'm Charis Karametos</h1>
+            <a href="#projects" class="btn">Explore My Work</a>
         </div>
-    </div>
-</section>
+    </section>
 
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm just a random teenager from Greece trynna act like I know what the fuck I'm doing.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>BreakTheMod</h3>
+                    <p>
+                        A mod version of BreakTheBot.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/chariskar/breakthemod" target="_blank">GitHub</a>
+                        <a href="https://modrinth.com/mod/breakthemod" target="_blank">Modrinth</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>BugLang</h3>
+                    <p>
+                        A joke language project I built to learn Rust while having fun.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/chariskar/BugLang" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>
+                Feel free to reach out via email or on social media. I'd love to connect!
+            </p>
+            <div class="contact-links">
+                <a href="https://discord.com/users/927581845787402240" target="_blank">Discord</a>
+                <a href="mailto:charis.karametos@gmail.com">Gmail</a>
+                <a href="mailto:charis.karametos@outlook.com">Outlook</a>
+                <a href="https://github.com/chariskar" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+</main>
 
 <footer>
-    <p>&copy; 2024 Charilaos Karametos. All rights reserved.</p>
+    <div class="container">
+        <p>&copy; 2025 Charis Karametos. All rights reserved.</p>
+    </div>
 </footer>
 
+<script>
+    const toggleButton = document.getElementById('theme-toggle');
+    const htmlElement = document.documentElement;
+    const iconMoon = document.getElementById('icon-moon');
+    const iconSun = document.getElementById('icon-sun');
+
+    toggleButton.addEventListener('click', () => {
+        if (htmlElement.getAttribute('data-theme') === 'dark') {
+            htmlElement.setAttribute('data-theme', 'light');
+            iconMoon.style.display = 'none';
+            iconSun.style.display = 'block';
+            iconSun.classList.add('rotate');
+            setTimeout(() => iconSun.classList.remove('rotate'), 300);
+        } else {
+            htmlElement.setAttribute('data-theme', 'dark');
+            iconSun.style.display = 'none';
+            iconMoon.style.display = 'block';
+            iconMoon.classList.add('rotate');
+            setTimeout(() => iconMoon.classList.remove('rotate'), 300);
+        }
+    });
+</script>
 </body>
 </html>
-
