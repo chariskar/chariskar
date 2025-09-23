@@ -15,6 +15,7 @@
   ![Python](https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)\
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)\
   ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+  ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white)
 
 
 - **Tools & Frameworks**:  
