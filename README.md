@@ -27,7 +27,6 @@
 ---
 
 ### 🤝 Connect With Me
-- 📨 **Email**: [charis.karametos@gmail.com](mailto:charis.karametos@gmail.com)
 - 🎮 **Discord**: [My Profile](https://discord.com/users/927581845787402240)
 
 ---
