@@ -1,7 +1,7 @@
 
 # Charis
 
-I spend most of my time writing code, then realizing I can automate that code, then writing more code to do that. I'm a big fan of the **JVM** ecosystem, but I’m currently seeing if the **Rust** hype is real (spoiler: it is).
+Idk, i js write code.
 
 **What I'm up to:**
 
