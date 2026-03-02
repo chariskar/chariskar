@@ -10,7 +10,7 @@ Idk, i js write code.
 
 ---
 
-### 🧰 My Stack
+### My Stack
 
 | Category | Tech |
 | --- | --- |
